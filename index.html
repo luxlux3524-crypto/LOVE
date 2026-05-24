@@ -104,7 +104,8 @@
 
 .love-paper{
   background: #fffef5;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   padding: 40px;
   border-radius: 15px;
 
@@ -148,6 +149,58 @@
   font-size: 20px;
   color: #444;
 }
+
+/* ---------------- มือถือ ---------------- */
+
+@media screen and (max-width: 768px){
+
+body{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.question{
+  font-size: 18px;
+}
+
+.btn{
+  font-size: 16px;
+  padding: 10px;
+}
+
+.love-paper{
+
+  width: 100%;
+  max-width: 320px;
+
+  padding: 25px;
+
+  line-height: 38px;
+
+  border-radius: 12px;
+}
+
+.love-paper h1{
+  font-size: 24px;
+}
+
+.love-paper p{
+  font-size: 16px;
+  margin-left: 18px;
+}
+
+.love-paper::before{
+  left: 30px;
+}
+
+}
+
 
   </style>
 </head>
